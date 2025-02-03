@@ -10,7 +10,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+        customBlue: "#89DFE5"
+      }, 
+      fontFamily: {
+        moderustic: "moderustic",
+      }
     },
   },
   plugins: [],

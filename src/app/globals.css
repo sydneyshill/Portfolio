@@ -4,17 +4,23 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #28003b
+  --foreground: #0e0124;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #28003b;
+    --background: #0e0124;
     --foreground: #ededed;
   }
 }
 
+.experience {
+  display: flex-col;
+  padding: 3;
+}
+
 .title {
+  font: moderustic;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,15 +45,21 @@
   padding-left: 15px;
 }
 
+.sepNavbar {
+  border-bottom-style: solid;
+  border-bottom-color: #bababa;
+  border-bottom-width: 0.5px;
+}
+
 @layer base {
-  h1 {
-    @apply text-2xl
+  html {
+    @apply font-moderustic
   }
 }
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, moderustic;
   padding: 30px
 }
 

@@ -21,9 +21,10 @@ const Navbar = () => {
     
     return (
       <div>
-        <nav className="navbar navbar-expand">
-            <div className="mx-auto flex row p-4 justify-left">
-                <ul className="nav navbar-nav p-5 gap-x-10 flex justify-around">
+        <nav className="navbar navbar-expand sepNavbar font-moderustic">
+            <div className="mx-auto flex row p-4 ">
+                <ul className="nav navbar-nav p-6 gap-x-10 flex justify-around">
+                  <li className="text-2xl text-customBlue">Sydney Shillinglaw</li>
                   <li><Link href="/" className="hover:text-white">
                     Home </Link></li>
                    <li><Link href="/experience">Experience</Link></li>
