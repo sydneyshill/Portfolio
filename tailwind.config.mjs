@@ -1,3 +1,5 @@
+import { Funnel_Sans } from 'next/font/google';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [

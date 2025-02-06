@@ -24,7 +24,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: xx-large
+  font-size: xx-large;
+  padding: 30px;
 }
 
 .subtitle {
@@ -53,13 +54,13 @@
 
 @layer base {
   html {
-    @apply font-moderustic
+    @apply font-moderustic;
   }
 }
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif, moderustic;
-  padding: 30px
+  padding: 40px
 }
 

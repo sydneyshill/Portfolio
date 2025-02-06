@@ -23,8 +23,7 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-expand sepNavbar font-moderustic">
             <div className="mx-auto flex row p-4 ">
-                <ul className="nav navbar-nav p-6 gap-x-10 flex justify-around">
-                  <li className="text-2xl text-customBlue">Sydney Shillinglaw</li>
+                <ul className="nav navbar-nav p-6 gap-x-20 flex justify-around text-xl">
                   <li><Link href="/" className="hover:text-white">
                     Home </Link></li>
                    <li><Link href="/experience">Experience</Link></li>
